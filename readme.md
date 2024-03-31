@@ -8,8 +8,3 @@ Trabalhando com dados Json Usando API go com Fiber
 	app.Get("/produto/", Produto.Produto)
 	app.Get("/produto/:id", Produto.ProdutoById)
 ```
-
-```
-var x int = 10
-ponteiro = &x // ponteiro agora contém o endereço de memória de x
-```
